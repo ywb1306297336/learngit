@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  FuncTest01
+//
+//  Created by 殷文博 on 2021/5/14.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+WMUFrame.h"
+#import "UIBarButtonItem+WMUItem.h"
+#import "UITabBarController+WMUHide.h"
+#import "WMUTopPush.h"
+#import "WMUTopPop.h"
+#import "WMUBottomPush.h"
+#import "WMUBottomPop.h"
+#import "WMULeftPush.h"
+#import "WMULeftPop.h"
+#import "WMURightPush.h"
+#import "WMURightPop.h"
+
+#define WMUColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define WMURandomColor WMUColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255), 1.0)
+#define WMUScreenW [UIScreen mainScreen].bounds.size.width
+#define WMUScreenH [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */
