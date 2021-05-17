@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WMUAdController">
+            <connections>
+                <outlet property="adContainView" destination="71U-wZ-HcG" id="xpf-j8-exc"/>
+                <outlet property="launchImageView" destination="Zvu-ks-9uV" id="hJW-6W-del"/>
+                <outlet property="skipButton" destination="XPV-qm-FVn" id="hJW-fP-NQJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zvu-ks-9uV">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71U-wZ-HcG" userLabel="广告占位图">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPV-qm-FVn">
+                    <rect key="frame" x="310" y="54" width="70" height="29"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.67795106962129659" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="U42-YN-gpV"/>
+                        <constraint firstAttribute="width" constant="70" id="oT8-25-B9D"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="跳过 (3)"/>
+                    <connections>
+                        <action selector="didClickSkipButton" destination="-1" eventType="touchUpInside" id="wdh-QQ-pPM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Zvu-ks-9uV" secondAttribute="trailing" id="CWs-Jm-QK5"/>
+                <constraint firstItem="71U-wZ-HcG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DcG-Nd-a2x"/>
+                <constraint firstAttribute="bottom" secondItem="71U-wZ-HcG" secondAttribute="bottom" id="Oit-N1-cbV"/>
+                <constraint firstAttribute="trailing" secondItem="71U-wZ-HcG" secondAttribute="trailing" id="PUy-Vf-EcB"/>
+                <constraint firstAttribute="trailing" secondItem="XPV-qm-FVn" secondAttribute="trailing" constant="10" id="Wu5-fV-iei"/>
+                <constraint firstItem="Zvu-ks-9uV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XWk-0A-URJ"/>
+                <constraint firstItem="XPV-qm-FVn" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="e4O-Xi-YKl"/>
+                <constraint firstItem="Zvu-ks-9uV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="n9a-d2-zyQ"/>
+                <constraint firstAttribute="bottom" secondItem="Zvu-ks-9uV" secondAttribute="bottom" id="nDu-94-R72"/>
+                <constraint firstItem="71U-wZ-HcG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qQM-hV-Xt2"/>
+            </constraints>
+            <point key="canvasLocation" x="53.846153846153847" y="82.464454976303315"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

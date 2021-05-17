@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  BaiSiProject
+//
+//  Created by 殷文博 on 2021/4/27.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIImage+WMUImage.h"
+#import "UIView+WMUExtension.h"
+#import "UIBarButtonItem+WMUItem.h"
+#import "WMUPushAnimation.h"
+#import "WMUPopAnimation.h"
+#import "UITabBarController+WMUHide.h"
+#import "UITextField+WMUPlaceholder.h"
+#import "WMUTitleButton.h"
+#import "WMUVerticalStyleButton.h"
+
+#define WMUFg(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define WMUColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define WMURandomColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0]
+#define WMUScreenW [UIScreen mainScreen].bounds.size.width
+#define WMUScreenH [UIScreen mainScreen].bounds.size.height
+#define WMUTitleViewHeight 35
+#define WMUNavigationBarHeight 92
+#define WMUTabBarHeight = 83
+#define iphoneXR WMUScreenH >= 800
+#define iphone6P WMUScreenH == 736
+#define iphone6 WMUScreenH == 667
+#define iphone5 WMUScreenH == 568
+#define iphone4 WMUScreenH < 568
+#define WMUCachePath NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject
+//重复点击TabBarButton的通知名
+#define WMUTabarButtonDidRepeatClickNotification @"WMUTabarButtonDidRepeatClickNotification"
+
+#ifdef DEBUG //调试阶段
+#define WMUFunc WMULog(@"%s", __FUNCTION__)
+#define WMULog(...) NSLog(__VA_ARGS__)
+#else //发布阶段
+#define WMULog(...)
+#endif
+
+#endif /* PrefixHeader_pch */

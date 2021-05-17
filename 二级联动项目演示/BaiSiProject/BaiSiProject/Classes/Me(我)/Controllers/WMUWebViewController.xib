@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WMUWebViewController">
+            <connections>
+                <outlet property="backItem" destination="K6n-iZ-5Um" id="uaG-OE-La0"/>
+                <outlet property="contentView" destination="cuI-9f-NVv" id="qq3-zQ-D6v"/>
+                <outlet property="forwardItem" destination="liC-l3-Yib" id="nXh-V6-p0y"/>
+                <outlet property="progressView" destination="Y1t-hr-Peq" id="Bdf-wu-lME"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cuI-9f-NVv">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ayv-vy-bYt">
+                    <rect key="frame" x="0.0" y="766" width="390" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="wI7-H4-LcJ"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem enabled="NO" title="Item" image="Arrow - Left Square" id="K6n-iZ-5Um">
+                            <connections>
+                                <action selector="didClickBackItem:" destination="-1" id="nSR-Rr-QYN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem enabled="NO" title="Item" image="Arrow - Right Square" id="liC-l3-Yib">
+                            <connections>
+                                <action selector="didClickForwardItem:" destination="-1" id="3UM-zM-USW"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="0SM-aR-bDP"/>
+                        <barButtonItem systemItem="refresh" id="FRj-4E-VK6">
+                            <connections>
+                                <action selector="didClickReloadItem:" destination="-1" id="s4T-ST-mxG"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y1t-hr-Peq">
+                    <rect key="frame" x="0.0" y="44" width="390" height="4"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="4" id="xze-dp-vro"/>
+                    </constraints>
+                    <color key="progressTintColor" systemColor="systemOrangeColor"/>
+                </progressView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cuI-9f-NVv" secondAttribute="bottom" id="2ZM-zA-BcG"/>
+                <constraint firstItem="Ayv-vy-bYt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C9w-Bc-oHu"/>
+                <constraint firstAttribute="trailing" secondItem="Ayv-vy-bYt" secondAttribute="trailing" id="HQ5-KN-k8j"/>
+                <constraint firstItem="cuI-9f-NVv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Unr-TG-Zha"/>
+                <constraint firstAttribute="trailing" secondItem="cuI-9f-NVv" secondAttribute="trailing" id="ZmC-WR-Gge"/>
+                <constraint firstItem="Y1t-hr-Peq" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="ltB-Kg-EO1"/>
+                <constraint firstAttribute="trailing" secondItem="Y1t-hr-Peq" secondAttribute="trailing" id="mD1-6j-y1z"/>
+                <constraint firstItem="Y1t-hr-Peq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="o4t-y0-gb2"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Ayv-vy-bYt" secondAttribute="bottom" id="qFd-PK-GuS"/>
+                <constraint firstItem="cuI-9f-NVv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uhq-bZ-Bwh"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="64"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Arrow - Left Square" width="30" height="30"/>
+        <image name="Arrow - Right Square" width="30" height="30"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

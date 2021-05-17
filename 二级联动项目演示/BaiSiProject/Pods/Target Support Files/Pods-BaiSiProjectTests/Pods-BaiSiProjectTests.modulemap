@@ -1,0 +1,6 @@
+framework module Pods_BaiSiProjectTests {
+  umbrella header "Pods-BaiSiProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

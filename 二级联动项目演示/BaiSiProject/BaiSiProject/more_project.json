@@ -1,0 +1,106 @@
+[
+      {
+            "title": "邮箱大师",
+            "stitle":"网易推出的通用邮箱APP",
+            "id": "com.netease.mailmaster",
+            "url": "http://mail.163.com/dashi/",
+            "icon": "mail.png",
+            "customUrl": "mailmaster"
+      },
+      {
+            "title": "网易电影票", 
+            "stitle":"特价购影票，提前选好座！",
+            "id": "com.lede.movie",
+            "url": "https://www.crsky.com/soft/39740.html",
+            "icon": "movie.png",
+            "customUrl": "movieTicket163"
+      },
+      {
+            "title": "网易新闻",
+            "stitle":"有态度的新闻客户端",
+            "id": "com.netease.news", 
+            "url": "https://news.163.com/rank/",
+            "icon": "newsapp.png",
+            "customUrl": "newsapp"
+      }, 
+      {
+            "title": "网易公开课",
+            "stitle":"随时随地上名校公开课",
+            "id": "com.netease.videoHD", 
+            "url": "https://open.163.com/cuvocw/",
+            "icon": "open.png",
+            "customUrl": "ntesopen"
+      }, 
+      {
+            "title": "网易电视指南",
+            "stitle":"手机也能看电视",
+            "id": "com.netease.tvguide", 
+            "url": "https://tech.163.com/keywords/7/5/7f516613753589c663075357/1.html",
+            "icon": "tvguide.png",
+            "customUrl": "tvguide"
+      }, 
+      {
+            "title": "网易云阅读", 
+            "stitle":"100000+好书杂志免费读",
+            "id": "com.netease.iphonereader", 
+            "url": "https://yuedu.163.com/",
+            "icon": "reader.png",
+            "customUrl": "neteasereaderuri"
+      },
+      {
+            "title": "网易云相册",
+            "stitle":"手机拍照必备工具",
+            "id": "com.netease.cloudphotos", 
+            "url": "https://tech.163.com/keywords/7/5/7f5166134e9176f8518c/1.html",
+            "icon": "cloudphotos.png",
+            "customUrl": ""
+      },
+      {
+            "title": "网易微博",
+            "stitle":"有态度的微博",
+            "id": "com.netease.microblogging", 
+            "url": "http://blog.163.com/",
+            "icon": "newb.png",
+            "customUrl": "microblogging"
+      },
+      {
+            "title": "有道词典", 
+            "stitle":"最好用的免费全能翻译软件",
+            "id": "youdaoPro", 
+            "url": "http://www.youdao.com/",
+            "icon": "youdao.png",
+            "customUrl": "yddictProapp"
+      }, 
+      {
+            "title": "有道云笔记", 
+            "stitle":"随时随地，记录一切",
+            "id": "com.youdao.note.iphone", 
+            "url": "http://co.youdao.com/",
+            "icon": "youdaonote.png",
+            "customUrl": "youdaonote"
+      },
+      {
+            "title": "恵恵",
+            "stitle":"一站购物，多站比价",
+            "id": "cn.huihui.Guide",
+            "url": "https://baike.baidu.com/item/%E6%83%A0%E6%83%A0/19342218?fr=aladdin",
+            "icon": "huihui.png",
+            "customUrl": "huihuideal"
+      },
+      {
+            "title": "LOFTER",
+            "stitle":"快速漂亮有趣的记录",
+            "id": "com.netease.lofter",
+            "url": "https://www.lofter.com/front/login",
+            "icon": "lofter.png",
+            "customUrl": "lofter"
+      },
+      {
+            "title": "网易火车票",
+            "stitle":"最实惠的抢票神器",
+            "id": "com.lede.trainticket",
+            "url": "http://www.12306.org.cn/app/19.html",
+            "icon": "train.png",
+            "customUrl": "train163"
+      }
+]
