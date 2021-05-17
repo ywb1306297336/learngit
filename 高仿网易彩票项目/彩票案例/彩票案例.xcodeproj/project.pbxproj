@@ -1,0 +1,1274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1ACAA72600B74F0019C932 /* WMUGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ACAA62600B74F0019C932 /* WMUGuideCell.m */; };
+		4C32263525F8F59300952876 /* WMULuckyBetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32263425F8F59300952876 /* WMULuckyBetViewController.m */; };
+		4C32263F25FA2D1300952876 /* WMUMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32263E25FA2D1300952876 /* WMUMyLotteryViewController.m */; };
+		4C32264525FA2E6A00952876 /* WMUSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32264425FA2E6A00952876 /* WMUSettingViewController.m */; };
+		4C32265425FA378100952876 /* WMUSettingsIndex.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C32265325FA378100952876 /* WMUSettingsIndex.plist */; };
+		4C32266225FB6F4C00952876 /* WMUSettingsPushRemind.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C32266125FB6F4C00952876 /* WMUSettingsPushRemind.plist */; };
+		4C32266725FB729000952876 /* WMUSettingsPush01.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C32266625FB729000952876 /* WMUSettingsPush01.plist */; };
+		4C32266C25FB771700952876 /* WMUSettingsPush02.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C32266B25FB771700952876 /* WMUSettingsPush02.plist */; };
+		4C32267125FB798D00952876 /* WMUSettingsPush03.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C32267025FB798D00952876 /* WMUSettingsPush03.plist */; };
+		4C32267625FB7A6B00952876 /* WMUSettingsPush04.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C32267525FB7A6B00952876 /* WMUSettingsPush04.plist */; };
+		4C32267B25FB7B5700952876 /* WMUSettingsAbout.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C32267A25FB7B5700952876 /* WMUSettingsAbout.plist */; };
+		4C32268125FB85B400952876 /* WMUSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32268025FB85B400952876 /* WMUSettingCell.m */; };
+		4C32268725FB8FE500952876 /* WMULiveScorePushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32268625FB8FE500952876 /* WMULiveScorePushController.m */; };
+		4C32269325FE147200952876 /* WMURedeemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32269225FE147200952876 /* WMURedeemController.m */; };
+		4C32269925FE1E4C00952876 /* WMUSettingsAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32269825FE1E4B00952876 /* WMUSettingsAboutViewController.m */; };
+		4C3AD00D25FE20D60025AA07 /* WMUSettingAboutHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD00C25FE20D60025AA07 /* WMUSettingAboutHeaderView.xib */; };
+		4C3AD01325FE24190025AA07 /* WMUSettingAboutHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD01225FE24190025AA07 /* WMUSettingAboutHeaderView.m */; };
+		4C3AD01C25FE280E0025AA07 /* WMUMoreProductsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD01B25FE280E0025AA07 /* WMUMoreProductsController.m */; };
+		4C3AD02725FE2EA90025AA07 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD02425FE2EA90025AA07 /* help.json */; };
+		4C3AD02825FE2EA90025AA07 /* more_project.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD02525FE2EA90025AA07 /* more_project.json */; };
+		4C3AD02925FE2EA90025AA07 /* cywt.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD02625FE2EA90025AA07 /* cywt.json */; };
+		4C3AD04A25FE2ECD0025AA07 /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD02D25FE2ECA0025AA07 /* rule.css */; };
+		4C3AD04B25FE2ECD0025AA07 /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD02E25FE2ECA0025AA07 /* qxc_howto.html */; };
+		4C3AD04C25FE2ECD0025AA07 /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD02F25FE2ECA0025AA07 /* k3_howto.html */; };
+		4C3AD04D25FE2ECD0025AA07 /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03025FE2ECA0025AA07 /* ssq_howto.html */; };
+		4C3AD04E25FE2ECD0025AA07 /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03125FE2ECA0025AA07 /* helpGroupBuy.html */; };
+		4C3AD04F25FE2ECD0025AA07 /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03225FE2ECA0025AA07 /* ssc_howto.html */; };
+		4C3AD05025FE2ECD0025AA07 /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03325FE2ECB0025AA07 /* credit_help.html */; };
+		4C3AD05125FE2ECD0025AA07 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03425FE2ECB0025AA07 /* x3d_howto.html */; };
+		4C3AD05225FE2ECD0025AA07 /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03525FE2ECB0025AA07 /* coupon_help.html */; };
+		4C3AD05325FE2ECD0025AA07 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03625FE2ECB0025AA07 /* jclq_howto.html */; };
+		4C3AD05425FE2ECD0025AA07 /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03725FE2ECB0025AA07 /* lk11_howto.html */; };
+		4C3AD05525FE2ECD0025AA07 /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03825FE2ECB0025AA07 /* qlc_howto.html */; };
+		4C3AD05625FE2ECD0025AA07 /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03925FE2ECB0025AA07 /* networkconnectedfailed.html */; };
+		4C3AD05725FE2ECD0025AA07 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03A25FE2ECB0025AA07 /* jczq_howto.html */; };
+		4C3AD05825FE2ECD0025AA07 /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03B25FE2ECB0025AA07 /* jxy11_howto.html */; };
+		4C3AD05925FE2ECD0025AA07 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03C25FE2ECC0025AA07 /* help.html */; };
+		4C3AD05A25FE2ECD0025AA07 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03D25FE2ECC0025AA07 /* bjdc_howto.html */; };
+		4C3AD05B25FE2ECD0025AA07 /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03E25FE2ECC0025AA07 /* group_record.html */; };
+		4C3AD05C25FE2ECD0025AA07 /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD03F25FE2ECC0025AA07 /* pl3_howto.html */; };
+		4C3AD05D25FE2ECD0025AA07 /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04025FE2ECC0025AA07 /* dlt_howto.html */; };
+		4C3AD05E25FE2ECD0025AA07 /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04125FE2ECC0025AA07 /* kl8_howto.html */; };
+		4C3AD05F25FE2ECD0025AA07 /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04225FE2ECC0025AA07 /* sfc_howto.html */; };
+		4C3AD06025FE2ECD0025AA07 /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04325FE2ECC0025AA07 /* gdy11_howto.html */; };
+		4C3AD06125FE2ECD0025AA07 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04425FE2ECD0025AA07 /* znzh.html */; };
+		4C3AD06225FE2ECD0025AA07 /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04525FE2ECD0025AA07 /* pl5_howto.html */; };
+		4C3AD06325FE2ECD0025AA07 /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04625FE2ECD0025AA07 /* k2_howto.html */; };
+		4C3AD06425FE2ECD0025AA07 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04725FE2ECD0025AA07 /* y11_howto.html */; };
+		4C3AD06525FE2ECD0025AA07 /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04825FE2ECD0025AA07 /* f9_howto.html */; };
+		4C3AD06625FE2ECD0025AA07 /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD04925FE2ECD0025AA07 /* jxssc_howto.html */; };
+		4C3AD06C25FE2F2D0025AA07 /* WMUProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD06B25FE2F2D0025AA07 /* WMUProduct.m */; };
+		4C3AD07725FE39620025AA07 /* WMUProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AD07625FE39620025AA07 /* WMUProductCell.xib */; };
+		4C3AD07D25FE3C170025AA07 /* WMUProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD07C25FE3C170025AA07 /* WMUProductCell.m */; };
+		4C3AD08625FF68C80025AA07 /* WMUQuestionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD08525FF68C80025AA07 /* WMUQuestionListController.m */; };
+		4C3AD08C25FF68FC0025AA07 /* WMUQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD08B25FF68FC0025AA07 /* WMUQuestion.m */; };
+		4C3AD09225FF6C6C0025AA07 /* WMUQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD09125FF6C6C0025AA07 /* WMUQuestionCell.m */; };
+		4C3AD09825FF72990025AA07 /* WMUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD09725FF72990025AA07 /* WMUWebViewController.m */; };
+		4C3AD09E25FF916E0025AA07 /* WMUGuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD09D25FF916E0025AA07 /* WMUGuideController.m */; };
+		4C4A1CDB25F38BA000AE7447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1CDA25F38BA000AE7447 /* AppDelegate.m */; };
+		4C4A1CDE25F38BA000AE7447 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1CDD25F38BA000AE7447 /* SceneDelegate.m */; };
+		4C4A1CE625F38BA600AE7447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A1CE525F38BA600AE7447 /* Assets.xcassets */; };
+		4C4A1CE925F38BA600AE7447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A1CE725F38BA600AE7447 /* LaunchScreen.storyboard */; };
+		4C4A1CEC25F38BA600AE7447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1CEB25F38BA600AE7447 /* main.m */; };
+		4C4A1CF625F38BA600AE7447 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1CF525F38BA600AE7447 /* ____Tests.m */; };
+		4C4A1D0125F38BA600AE7447 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1D0025F38BA600AE7447 /* ____UITests.m */; };
+		4C4A1D4525F4DBCF00AE7447 /* WMUMyLottery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A1D4425F4DBCF00AE7447 /* WMUMyLottery.storyboard */; };
+		4C4A1D4D25F4DD5700AE7447 /* WMUHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A1D4C25F4DD5700AE7447 /* WMUHistory.storyboard */; };
+		4C4A1D5625F4DE0300AE7447 /* WMUHall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A1D5525F4DE0300AE7447 /* WMUHall.storyboard */; };
+		4C4A1D5B25F4DEBE00AE7447 /* WMUDiscovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A1D5A25F4DEBE00AE7447 /* WMUDiscovery.storyboard */; };
+		4C4A1D6025F4DF2600AE7447 /* WMUArena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A1D5F25F4DF2600AE7447 /* WMUArena.storyboard */; };
+		4C4A1D6625F4E0FC00AE7447 /* WMUMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1D6525F4E0FC00AE7447 /* WMUMainTabBarController.m */; };
+		4C4A1D6C25F4E88B00AE7447 /* WMUBottomBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1D6B25F4E88B00AE7447 /* WMUBottomBarView.m */; };
+		4C4A1D9525F63EFF00AE7447 /* WMUTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1D9425F63EFF00AE7447 /* WMUTabBarButton.m */; };
+		4C4A1D9B25F641E500AE7447 /* WMUHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1D9A25F641E500AE7447 /* WMUHallViewController.m */; };
+		4C4A1DA125F64DDF00AE7447 /* WMUArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1DA025F64DDE00AE7447 /* WMUArenaViewController.m */; };
+		4C4A1DA725F64EB200AE7447 /* WMUArenaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1DA625F64EB200AE7447 /* WMUArenaView.m */; };
+		4C4A1DAD25F6560800AE7447 /* WMUArenaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1DAC25F6560800AE7447 /* WMUArenaNavigationController.m */; };
+		4C4A1DC825F7962E00AE7447 /* WMUNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1DC725F7962E00AE7447 /* WMUNavigationController.m */; };
+		4C4A1DCE25F79BF300AE7447 /* WMUDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1DCD25F79BF300AE7447 /* WMUDiscoveryViewController.m */; };
+		4C4A1DD725F7A7A600AE7447 /* WMUGroupBuyTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1DD625F7A7A600AE7447 /* WMUGroupBuyTitleButton.m */; };
+		4C4A1DF225F8C7F500AE7447 /* UIView+WMUExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1DF125F8C7F500AE7447 /* UIView+WMUExtension.m */; };
+		4C4A1E6B25F8DE2600AE7447 /* WMUGroupBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A1E6A25F8DE2500AE7447 /* WMUGroupBuyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4A1CF225F38BA600AE7447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4A1CCE25F38BA000AE7447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4A1CD525F38BA000AE7447;
+			remoteInfo = "彩票案例";
+		};
+		4C4A1CFD25F38BA600AE7447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4A1CCE25F38BA000AE7447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4A1CD525F38BA000AE7447;
+			remoteInfo = "彩票案例";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1ACAA52600B74F0019C932 /* WMUGuideCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUGuideCell.h; sourceTree = "<group>"; };
+		4C1ACAA62600B74F0019C932 /* WMUGuideCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUGuideCell.m; sourceTree = "<group>"; };
+		4C32263325F8F59300952876 /* WMULuckyBetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMULuckyBetViewController.h; sourceTree = "<group>"; };
+		4C32263425F8F59300952876 /* WMULuckyBetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMULuckyBetViewController.m; sourceTree = "<group>"; };
+		4C32263D25FA2D1300952876 /* WMUMyLotteryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUMyLotteryViewController.h; sourceTree = "<group>"; };
+		4C32263E25FA2D1300952876 /* WMUMyLotteryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUMyLotteryViewController.m; sourceTree = "<group>"; };
+		4C32264325FA2E6A00952876 /* WMUSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUSettingViewController.h; sourceTree = "<group>"; };
+		4C32264425FA2E6A00952876 /* WMUSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUSettingViewController.m; sourceTree = "<group>"; };
+		4C32265325FA378100952876 /* WMUSettingsIndex.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WMUSettingsIndex.plist; sourceTree = "<group>"; };
+		4C32266125FB6F4C00952876 /* WMUSettingsPushRemind.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WMUSettingsPushRemind.plist; sourceTree = "<group>"; };
+		4C32266625FB729000952876 /* WMUSettingsPush01.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WMUSettingsPush01.plist; sourceTree = "<group>"; };
+		4C32266B25FB771700952876 /* WMUSettingsPush02.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WMUSettingsPush02.plist; sourceTree = "<group>"; };
+		4C32267025FB798D00952876 /* WMUSettingsPush03.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WMUSettingsPush03.plist; sourceTree = "<group>"; };
+		4C32267525FB7A6B00952876 /* WMUSettingsPush04.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WMUSettingsPush04.plist; sourceTree = "<group>"; };
+		4C32267A25FB7B5700952876 /* WMUSettingsAbout.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WMUSettingsAbout.plist; sourceTree = "<group>"; };
+		4C32267F25FB85B400952876 /* WMUSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUSettingCell.h; sourceTree = "<group>"; };
+		4C32268025FB85B400952876 /* WMUSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUSettingCell.m; sourceTree = "<group>"; };
+		4C32268525FB8FE500952876 /* WMULiveScorePushController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMULiveScorePushController.h; sourceTree = "<group>"; };
+		4C32268625FB8FE500952876 /* WMULiveScorePushController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMULiveScorePushController.m; sourceTree = "<group>"; };
+		4C32269125FE147200952876 /* WMURedeemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMURedeemController.h; sourceTree = "<group>"; };
+		4C32269225FE147200952876 /* WMURedeemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMURedeemController.m; sourceTree = "<group>"; };
+		4C32269725FE1E4B00952876 /* WMUSettingsAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUSettingsAboutViewController.h; sourceTree = "<group>"; };
+		4C32269825FE1E4B00952876 /* WMUSettingsAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUSettingsAboutViewController.m; sourceTree = "<group>"; };
+		4C3AD00C25FE20D60025AA07 /* WMUSettingAboutHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WMUSettingAboutHeaderView.xib; sourceTree = "<group>"; };
+		4C3AD01125FE24190025AA07 /* WMUSettingAboutHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUSettingAboutHeaderView.h; sourceTree = "<group>"; };
+		4C3AD01225FE24190025AA07 /* WMUSettingAboutHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUSettingAboutHeaderView.m; sourceTree = "<group>"; };
+		4C3AD01A25FE280E0025AA07 /* WMUMoreProductsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUMoreProductsController.h; sourceTree = "<group>"; };
+		4C3AD01B25FE280E0025AA07 /* WMUMoreProductsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUMoreProductsController.m; sourceTree = "<group>"; };
+		4C3AD02425FE2EA90025AA07 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		4C3AD02525FE2EA90025AA07 /* more_project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = more_project.json; sourceTree = "<group>"; };
+		4C3AD02625FE2EA90025AA07 /* cywt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cywt.json; sourceTree = "<group>"; };
+		4C3AD02D25FE2ECA0025AA07 /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		4C3AD02E25FE2ECA0025AA07 /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		4C3AD02F25FE2ECA0025AA07 /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		4C3AD03025FE2ECA0025AA07 /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		4C3AD03125FE2ECA0025AA07 /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		4C3AD03225FE2ECA0025AA07 /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		4C3AD03325FE2ECB0025AA07 /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		4C3AD03425FE2ECB0025AA07 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		4C3AD03525FE2ECB0025AA07 /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		4C3AD03625FE2ECB0025AA07 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		4C3AD03725FE2ECB0025AA07 /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		4C3AD03825FE2ECB0025AA07 /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		4C3AD03925FE2ECB0025AA07 /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		4C3AD03A25FE2ECB0025AA07 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		4C3AD03B25FE2ECB0025AA07 /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		4C3AD03C25FE2ECC0025AA07 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		4C3AD03D25FE2ECC0025AA07 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		4C3AD03E25FE2ECC0025AA07 /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		4C3AD03F25FE2ECC0025AA07 /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		4C3AD04025FE2ECC0025AA07 /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		4C3AD04125FE2ECC0025AA07 /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		4C3AD04225FE2ECC0025AA07 /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		4C3AD04325FE2ECC0025AA07 /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		4C3AD04425FE2ECD0025AA07 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		4C3AD04525FE2ECD0025AA07 /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		4C3AD04625FE2ECD0025AA07 /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		4C3AD04725FE2ECD0025AA07 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		4C3AD04825FE2ECD0025AA07 /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		4C3AD04925FE2ECD0025AA07 /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		4C3AD06A25FE2F2D0025AA07 /* WMUProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUProduct.h; sourceTree = "<group>"; };
+		4C3AD06B25FE2F2D0025AA07 /* WMUProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUProduct.m; sourceTree = "<group>"; };
+		4C3AD07625FE39620025AA07 /* WMUProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WMUProductCell.xib; sourceTree = "<group>"; };
+		4C3AD07B25FE3C170025AA07 /* WMUProductCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUProductCell.h; sourceTree = "<group>"; };
+		4C3AD07C25FE3C170025AA07 /* WMUProductCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUProductCell.m; sourceTree = "<group>"; };
+		4C3AD08425FF68C80025AA07 /* WMUQuestionListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUQuestionListController.h; sourceTree = "<group>"; };
+		4C3AD08525FF68C80025AA07 /* WMUQuestionListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUQuestionListController.m; sourceTree = "<group>"; };
+		4C3AD08A25FF68FC0025AA07 /* WMUQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUQuestion.h; sourceTree = "<group>"; };
+		4C3AD08B25FF68FC0025AA07 /* WMUQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUQuestion.m; sourceTree = "<group>"; };
+		4C3AD09025FF6C6C0025AA07 /* WMUQuestionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUQuestionCell.h; sourceTree = "<group>"; };
+		4C3AD09125FF6C6C0025AA07 /* WMUQuestionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUQuestionCell.m; sourceTree = "<group>"; };
+		4C3AD09625FF72990025AA07 /* WMUWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUWebViewController.h; sourceTree = "<group>"; };
+		4C3AD09725FF72990025AA07 /* WMUWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUWebViewController.m; sourceTree = "<group>"; };
+		4C3AD09C25FF916E0025AA07 /* WMUGuideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUGuideController.h; sourceTree = "<group>"; };
+		4C3AD09D25FF916E0025AA07 /* WMUGuideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUGuideController.m; sourceTree = "<group>"; };
+		4C4A1CD625F38BA000AE7447 /* 彩票案例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票案例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4A1CD925F38BA000AE7447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C4A1CDA25F38BA000AE7447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C4A1CDC25F38BA000AE7447 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4C4A1CDD25F38BA000AE7447 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4C4A1CE525F38BA600AE7447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4A1CE825F38BA600AE7447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C4A1CEA25F38BA600AE7447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4A1CEB25F38BA600AE7447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C4A1CF125F38BA600AE7447 /* 彩票案例Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票案例Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4A1CF525F38BA600AE7447 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		4C4A1CF725F38BA600AE7447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4A1CFC25F38BA600AE7447 /* 彩票案例UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "彩票案例UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4A1D0025F38BA600AE7447 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		4C4A1D0225F38BA600AE7447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4A1D4425F4DBCF00AE7447 /* WMUMyLottery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WMUMyLottery.storyboard; sourceTree = "<group>"; };
+		4C4A1D4C25F4DD5700AE7447 /* WMUHistory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WMUHistory.storyboard; sourceTree = "<group>"; };
+		4C4A1D5525F4DE0300AE7447 /* WMUHall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WMUHall.storyboard; sourceTree = "<group>"; };
+		4C4A1D5A25F4DEBE00AE7447 /* WMUDiscovery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WMUDiscovery.storyboard; sourceTree = "<group>"; };
+		4C4A1D5F25F4DF2600AE7447 /* WMUArena.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WMUArena.storyboard; sourceTree = "<group>"; };
+		4C4A1D6425F4E0FC00AE7447 /* WMUMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUMainTabBarController.h; sourceTree = "<group>"; };
+		4C4A1D6525F4E0FC00AE7447 /* WMUMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUMainTabBarController.m; sourceTree = "<group>"; };
+		4C4A1D6A25F4E88B00AE7447 /* WMUBottomBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUBottomBarView.h; sourceTree = "<group>"; };
+		4C4A1D6B25F4E88B00AE7447 /* WMUBottomBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUBottomBarView.m; sourceTree = "<group>"; };
+		4C4A1D9325F63EFF00AE7447 /* WMUTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUTabBarButton.h; sourceTree = "<group>"; };
+		4C4A1D9425F63EFF00AE7447 /* WMUTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUTabBarButton.m; sourceTree = "<group>"; };
+		4C4A1D9925F641E500AE7447 /* WMUHallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUHallViewController.h; sourceTree = "<group>"; };
+		4C4A1D9A25F641E500AE7447 /* WMUHallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUHallViewController.m; sourceTree = "<group>"; };
+		4C4A1D9F25F64DDE00AE7447 /* WMUArenaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUArenaViewController.h; sourceTree = "<group>"; };
+		4C4A1DA025F64DDE00AE7447 /* WMUArenaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUArenaViewController.m; sourceTree = "<group>"; };
+		4C4A1DA525F64EB200AE7447 /* WMUArenaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUArenaView.h; sourceTree = "<group>"; };
+		4C4A1DA625F64EB200AE7447 /* WMUArenaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUArenaView.m; sourceTree = "<group>"; };
+		4C4A1DAB25F6560800AE7447 /* WMUArenaNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUArenaNavigationController.h; sourceTree = "<group>"; };
+		4C4A1DAC25F6560800AE7447 /* WMUArenaNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUArenaNavigationController.m; sourceTree = "<group>"; };
+		4C4A1DC625F7962E00AE7447 /* WMUNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUNavigationController.h; sourceTree = "<group>"; };
+		4C4A1DC725F7962E00AE7447 /* WMUNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUNavigationController.m; sourceTree = "<group>"; };
+		4C4A1DCC25F79BF300AE7447 /* WMUDiscoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUDiscoveryViewController.h; sourceTree = "<group>"; };
+		4C4A1DCD25F79BF300AE7447 /* WMUDiscoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUDiscoveryViewController.m; sourceTree = "<group>"; };
+		4C4A1DD525F7A7A500AE7447 /* WMUGroupBuyTitleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUGroupBuyTitleButton.h; sourceTree = "<group>"; };
+		4C4A1DD625F7A7A600AE7447 /* WMUGroupBuyTitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUGroupBuyTitleButton.m; sourceTree = "<group>"; };
+		4C4A1DF025F8C7F500AE7447 /* UIView+WMUExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WMUExtension.h"; sourceTree = "<group>"; };
+		4C4A1DF125F8C7F500AE7447 /* UIView+WMUExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WMUExtension.m"; sourceTree = "<group>"; };
+		4C4A1E2F25F8D7E900AE7447 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4C4A1E6925F8DE2500AE7447 /* WMUGroupBuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMUGroupBuyViewController.h; sourceTree = "<group>"; };
+		4C4A1E6A25F8DE2500AE7447 /* WMUGroupBuyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMUGroupBuyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4A1CD325F38BA000AE7447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4A1CEE25F38BA600AE7447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4A1CF925F38BA600AE7447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C32264A25FA33B100952876 /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				4C32264E25FA342D00952876 /* Controllers */,
+				4C32264D25FA342500952876 /* Views */,
+				4C32264C25FA341C00952876 /* Modles */,
+				4C32264B25FA33F100952876 /* Assets(资源文件) */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		4C32264B25FA33F100952876 /* Assets(资源文件) */ = {
+			isa = PBXGroup;
+			children = (
+				4C32265325FA378100952876 /* WMUSettingsIndex.plist */,
+				4C32266125FB6F4C00952876 /* WMUSettingsPushRemind.plist */,
+				4C32266625FB729000952876 /* WMUSettingsPush01.plist */,
+				4C32266B25FB771700952876 /* WMUSettingsPush02.plist */,
+				4C32267025FB798D00952876 /* WMUSettingsPush03.plist */,
+				4C32267525FB7A6B00952876 /* WMUSettingsPush04.plist */,
+				4C32267A25FB7B5700952876 /* WMUSettingsAbout.plist */,
+			);
+			path = "Assets(资源文件)";
+			sourceTree = "<group>";
+		};
+		4C32264C25FA341C00952876 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AD06A25FE2F2D0025AA07 /* WMUProduct.h */,
+				4C3AD06B25FE2F2D0025AA07 /* WMUProduct.m */,
+				4C3AD08A25FF68FC0025AA07 /* WMUQuestion.h */,
+				4C3AD08B25FF68FC0025AA07 /* WMUQuestion.m */,
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C32264D25FA342500952876 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C32267F25FB85B400952876 /* WMUSettingCell.h */,
+				4C32268025FB85B400952876 /* WMUSettingCell.m */,
+				4C3AD00C25FE20D60025AA07 /* WMUSettingAboutHeaderView.xib */,
+				4C3AD01125FE24190025AA07 /* WMUSettingAboutHeaderView.h */,
+				4C3AD01225FE24190025AA07 /* WMUSettingAboutHeaderView.m */,
+				4C3AD07625FE39620025AA07 /* WMUProductCell.xib */,
+				4C3AD07B25FE3C170025AA07 /* WMUProductCell.h */,
+				4C3AD07C25FE3C170025AA07 /* WMUProductCell.m */,
+				4C3AD09025FF6C6C0025AA07 /* WMUQuestionCell.h */,
+				4C3AD09125FF6C6C0025AA07 /* WMUQuestionCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C32264E25FA342D00952876 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C32264325FA2E6A00952876 /* WMUSettingViewController.h */,
+				4C32264425FA2E6A00952876 /* WMUSettingViewController.m */,
+				4C32268525FB8FE500952876 /* WMULiveScorePushController.h */,
+				4C32268625FB8FE500952876 /* WMULiveScorePushController.m */,
+				4C32269125FE147200952876 /* WMURedeemController.h */,
+				4C32269225FE147200952876 /* WMURedeemController.m */,
+				4C32269725FE1E4B00952876 /* WMUSettingsAboutViewController.h */,
+				4C32269825FE1E4B00952876 /* WMUSettingsAboutViewController.m */,
+				4C3AD01A25FE280E0025AA07 /* WMUMoreProductsController.h */,
+				4C3AD01B25FE280E0025AA07 /* WMUMoreProductsController.m */,
+				4C3AD08425FF68C80025AA07 /* WMUQuestionListController.h */,
+				4C3AD08525FF68C80025AA07 /* WMUQuestionListController.m */,
+				4C3AD09625FF72990025AA07 /* WMUWebViewController.h */,
+				4C3AD09725FF72990025AA07 /* WMUWebViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C3AD02225FE2E790025AA07 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AD02625FE2EA90025AA07 /* cywt.json */,
+				4C3AD02425FE2EA90025AA07 /* help.json */,
+				4C3AD02525FE2EA90025AA07 /* more_project.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		4C3AD02325FE2E810025AA07 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AD03D25FE2ECC0025AA07 /* bjdc_howto.html */,
+				4C3AD03525FE2ECB0025AA07 /* coupon_help.html */,
+				4C3AD03325FE2ECB0025AA07 /* credit_help.html */,
+				4C3AD04025FE2ECC0025AA07 /* dlt_howto.html */,
+				4C3AD04825FE2ECD0025AA07 /* f9_howto.html */,
+				4C3AD04325FE2ECC0025AA07 /* gdy11_howto.html */,
+				4C3AD03E25FE2ECC0025AA07 /* group_record.html */,
+				4C3AD03C25FE2ECC0025AA07 /* help.html */,
+				4C3AD03125FE2ECA0025AA07 /* helpGroupBuy.html */,
+				4C3AD03625FE2ECB0025AA07 /* jclq_howto.html */,
+				4C3AD03A25FE2ECB0025AA07 /* jczq_howto.html */,
+				4C3AD04925FE2ECD0025AA07 /* jxssc_howto.html */,
+				4C3AD03B25FE2ECB0025AA07 /* jxy11_howto.html */,
+				4C3AD04625FE2ECD0025AA07 /* k2_howto.html */,
+				4C3AD02F25FE2ECA0025AA07 /* k3_howto.html */,
+				4C3AD04125FE2ECC0025AA07 /* kl8_howto.html */,
+				4C3AD03725FE2ECB0025AA07 /* lk11_howto.html */,
+				4C3AD03925FE2ECB0025AA07 /* networkconnectedfailed.html */,
+				4C3AD03F25FE2ECC0025AA07 /* pl3_howto.html */,
+				4C3AD04525FE2ECD0025AA07 /* pl5_howto.html */,
+				4C3AD03825FE2ECB0025AA07 /* qlc_howto.html */,
+				4C3AD02E25FE2ECA0025AA07 /* qxc_howto.html */,
+				4C3AD02D25FE2ECA0025AA07 /* rule.css */,
+				4C3AD04225FE2ECC0025AA07 /* sfc_howto.html */,
+				4C3AD03225FE2ECA0025AA07 /* ssc_howto.html */,
+				4C3AD03025FE2ECA0025AA07 /* ssq_howto.html */,
+				4C3AD03425FE2ECB0025AA07 /* x3d_howto.html */,
+				4C3AD04725FE2ECD0025AA07 /* y11_howto.html */,
+				4C3AD04425FE2ECD0025AA07 /* znzh.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		4C4A1CCD25F38BA000AE7447 = {
+			isa = PBXGroup;
+			children = (
+				4C4A1CD825F38BA000AE7447 /* 彩票案例 */,
+				4C4A1CF425F38BA600AE7447 /* 彩票案例Tests */,
+				4C4A1CFF25F38BA600AE7447 /* 彩票案例UITests */,
+				4C4A1CD725F38BA000AE7447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4A1CD725F38BA000AE7447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1CD625F38BA000AE7447 /* 彩票案例.app */,
+				4C4A1CF125F38BA600AE7447 /* 彩票案例Tests.xctest */,
+				4C4A1CFC25F38BA600AE7447 /* 彩票案例UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4A1CD825F38BA000AE7447 /* 彩票案例 */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AD02325FE2E810025AA07 /* Html */,
+				4C3AD02225FE2E790025AA07 /* json */,
+				4C4A1D2A25F4DA0B00AE7447 /* MyLottery(我的彩票) */,
+				4C4A1D2925F4D9E300AE7447 /* History(开奖信息) */,
+				4C4A1D2825F4D9C300AE7447 /* Hall(购彩大厅) */,
+				4C4A1D2725F4D9A800AE7447 /* Guide(新特性) */,
+				4C4A1D2625F4D97C00AE7447 /* Discovery(发现) */,
+				4C4A1D2525F4D96900AE7447 /* Arena(竞技场) */,
+				4C4A1D1125F38C1900AE7447 /* Main(主框架) */,
+				4C32264A25FA33B100952876 /* Setting(设置) */,
+				4C4A1CE525F38BA600AE7447 /* Assets.xcassets */,
+				4C4A1E2F25F8D7E900AE7447 /* PrefixHeader.pch */,
+				4C4A1CEA25F38BA600AE7447 /* Info.plist */,
+				4C4A1CEB25F38BA600AE7447 /* main.m */,
+			);
+			path = "彩票案例";
+			sourceTree = "<group>";
+		};
+		4C4A1CF425F38BA600AE7447 /* 彩票案例Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1CF525F38BA600AE7447 /* ____Tests.m */,
+				4C4A1CF725F38BA600AE7447 /* Info.plist */,
+			);
+			path = "彩票案例Tests";
+			sourceTree = "<group>";
+		};
+		4C4A1CFF25F38BA600AE7447 /* 彩票案例UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D0025F38BA600AE7447 /* ____UITests.m */,
+				4C4A1D0225F38BA600AE7447 /* Info.plist */,
+			);
+			path = "彩票案例UITests";
+			sourceTree = "<group>";
+		};
+		4C4A1D1125F38C1900AE7447 /* Main(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D1525F38CB100AE7447 /* Others */,
+				4C4A1D1425F38CA300AE7447 /* Controllers */,
+				4C4A1D1325F38C7C00AE7447 /* Views */,
+				4C4A1D1225F38C6D00AE7447 /* Modles */,
+			);
+			path = "Main(主框架)";
+			sourceTree = "<group>";
+		};
+		4C4A1D1225F38C6D00AE7447 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C4A1D1325F38C7C00AE7447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1CE725F38BA600AE7447 /* LaunchScreen.storyboard */,
+				4C4A1D9325F63EFF00AE7447 /* WMUTabBarButton.h */,
+				4C4A1D9425F63EFF00AE7447 /* WMUTabBarButton.m */,
+				4C4A1D6A25F4E88B00AE7447 /* WMUBottomBarView.h */,
+				4C4A1D6B25F4E88B00AE7447 /* WMUBottomBarView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4A1D1425F38CA300AE7447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D6425F4E0FC00AE7447 /* WMUMainTabBarController.h */,
+				4C4A1D6525F4E0FC00AE7447 /* WMUMainTabBarController.m */,
+				4C4A1DC625F7962E00AE7447 /* WMUNavigationController.h */,
+				4C4A1DC725F7962E00AE7447 /* WMUNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C4A1D1525F38CB100AE7447 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1CD925F38BA000AE7447 /* AppDelegate.h */,
+				4C4A1CDA25F38BA000AE7447 /* AppDelegate.m */,
+				4C4A1CDC25F38BA000AE7447 /* SceneDelegate.h */,
+				4C4A1CDD25F38BA000AE7447 /* SceneDelegate.m */,
+				4C4A1DF025F8C7F500AE7447 /* UIView+WMUExtension.h */,
+				4C4A1DF125F8C7F500AE7447 /* UIView+WMUExtension.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4C4A1D2525F4D96900AE7447 /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D4325F4DB6A00AE7447 /* Others */,
+				4C4A1D4225F4DB5F00AE7447 /* Controllers */,
+				4C4A1D4125F4DB5900AE7447 /* Views */,
+				4C4A1D4025F4DB5200AE7447 /* Modles */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		4C4A1D2625F4D97C00AE7447 /* Discovery(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D3F25F4DB4200AE7447 /* Others */,
+				4C4A1D3E25F4DB3800AE7447 /* Controllers */,
+				4C4A1D3D25F4DB3200AE7447 /* Views */,
+				4C4A1D3C25F4DB2800AE7447 /* Modles */,
+			);
+			path = "Discovery(发现)";
+			sourceTree = "<group>";
+		};
+		4C4A1D2725F4D9A800AE7447 /* Guide(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D3B25F4DB1E00AE7447 /* Others */,
+				4C4A1D3A25F4DB0E00AE7447 /* Controllers */,
+				4C4A1D3925F4DB0700AE7447 /* Views */,
+				4C4A1D3825F4DB0000AE7447 /* Modles */,
+			);
+			path = "Guide(新特性)";
+			sourceTree = "<group>";
+		};
+		4C4A1D2825F4D9C300AE7447 /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D3725F4DAF800AE7447 /* Others */,
+				4C4A1D3625F4DAF000AE7447 /* Controllers */,
+				4C4A1D3525F4DAEA00AE7447 /* Views */,
+				4C4A1D3425F4DAE300AE7447 /* Modles */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		4C4A1D2925F4D9E300AE7447 /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D3325F4DAD800AE7447 /* Others */,
+				4C4A1D3225F4DACE00AE7447 /* Controllers */,
+				4C4A1D3125F4DAC800AE7447 /* Views */,
+				4C4A1D3025F4DABE00AE7447 /* Modles */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		4C4A1D2A25F4DA0B00AE7447 /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D2F25F4DAA100AE7447 /* Others */,
+				4C4A1D2E25F4DA8D00AE7447 /* Controllers */,
+				4C4A1D2D25F4DA7E00AE7447 /* Views */,
+				4C4A1D2C25F4DA7300AE7447 /* Modles */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		4C4A1D2C25F4DA7300AE7447 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C4A1D2D25F4DA7E00AE7447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D4425F4DBCF00AE7447 /* WMUMyLottery.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4A1D2E25F4DA8D00AE7447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C32263D25FA2D1300952876 /* WMUMyLotteryViewController.h */,
+				4C32263E25FA2D1300952876 /* WMUMyLotteryViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C4A1D2F25F4DAA100AE7447 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4C4A1D3025F4DABE00AE7447 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C4A1D3125F4DAC800AE7447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D4C25F4DD5700AE7447 /* WMUHistory.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4A1D3225F4DACE00AE7447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C4A1D3325F4DAD800AE7447 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4C4A1D3425F4DAE300AE7447 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C4A1D3525F4DAEA00AE7447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D5525F4DE0300AE7447 /* WMUHall.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4A1D3625F4DAF000AE7447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D9925F641E500AE7447 /* WMUHallViewController.h */,
+				4C4A1D9A25F641E500AE7447 /* WMUHallViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C4A1D3725F4DAF800AE7447 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4C4A1D3825F4DB0000AE7447 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C4A1D3925F4DB0700AE7447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C1ACAA52600B74F0019C932 /* WMUGuideCell.h */,
+				4C1ACAA62600B74F0019C932 /* WMUGuideCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4A1D3A25F4DB0E00AE7447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AD09C25FF916E0025AA07 /* WMUGuideController.h */,
+				4C3AD09D25FF916E0025AA07 /* WMUGuideController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C4A1D3B25F4DB1E00AE7447 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4C4A1D3C25F4DB2800AE7447 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C4A1D3D25F4DB3200AE7447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D5A25F4DEBE00AE7447 /* WMUDiscovery.storyboard */,
+				4C4A1DD525F7A7A500AE7447 /* WMUGroupBuyTitleButton.h */,
+				4C4A1DD625F7A7A600AE7447 /* WMUGroupBuyTitleButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4A1D3E25F4DB3800AE7447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1DCC25F79BF300AE7447 /* WMUDiscoveryViewController.h */,
+				4C4A1DCD25F79BF300AE7447 /* WMUDiscoveryViewController.m */,
+				4C4A1E6925F8DE2500AE7447 /* WMUGroupBuyViewController.h */,
+				4C4A1E6A25F8DE2500AE7447 /* WMUGroupBuyViewController.m */,
+				4C32263325F8F59300952876 /* WMULuckyBetViewController.h */,
+				4C32263425F8F59300952876 /* WMULuckyBetViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C4A1D3F25F4DB4200AE7447 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4C4A1D4025F4DB5200AE7447 /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		4C4A1D4125F4DB5900AE7447 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D5F25F4DF2600AE7447 /* WMUArena.storyboard */,
+				4C4A1DA525F64EB200AE7447 /* WMUArenaView.h */,
+				4C4A1DA625F64EB200AE7447 /* WMUArenaView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4A1D4225F4DB5F00AE7447 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A1D9F25F64DDE00AE7447 /* WMUArenaViewController.h */,
+				4C4A1DA025F64DDE00AE7447 /* WMUArenaViewController.m */,
+				4C4A1DAB25F6560800AE7447 /* WMUArenaNavigationController.h */,
+				4C4A1DAC25F6560800AE7447 /* WMUArenaNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C4A1D4325F4DB6A00AE7447 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4A1CD525F38BA000AE7447 /* 彩票案例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4A1D0525F38BA600AE7447 /* Build configuration list for PBXNativeTarget "彩票案例" */;
+			buildPhases = (
+				4C4A1CD225F38BA000AE7447 /* Sources */,
+				4C4A1CD325F38BA000AE7447 /* Frameworks */,
+				4C4A1CD425F38BA000AE7447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "彩票案例";
+			productName = "彩票案例";
+			productReference = 4C4A1CD625F38BA000AE7447 /* 彩票案例.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C4A1CF025F38BA600AE7447 /* 彩票案例Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4A1D0825F38BA600AE7447 /* Build configuration list for PBXNativeTarget "彩票案例Tests" */;
+			buildPhases = (
+				4C4A1CED25F38BA600AE7447 /* Sources */,
+				4C4A1CEE25F38BA600AE7447 /* Frameworks */,
+				4C4A1CEF25F38BA600AE7447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4A1CF325F38BA600AE7447 /* PBXTargetDependency */,
+			);
+			name = "彩票案例Tests";
+			productName = "彩票案例Tests";
+			productReference = 4C4A1CF125F38BA600AE7447 /* 彩票案例Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C4A1CFB25F38BA600AE7447 /* 彩票案例UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4A1D0B25F38BA600AE7447 /* Build configuration list for PBXNativeTarget "彩票案例UITests" */;
+			buildPhases = (
+				4C4A1CF825F38BA600AE7447 /* Sources */,
+				4C4A1CF925F38BA600AE7447 /* Frameworks */,
+				4C4A1CFA25F38BA600AE7447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4A1CFE25F38BA600AE7447 /* PBXTargetDependency */,
+			);
+			name = "彩票案例UITests";
+			productName = "彩票案例UITests";
+			productReference = 4C4A1CFC25F38BA600AE7447 /* 彩票案例UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4A1CCE25F38BA000AE7447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WMU;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					4C4A1CD525F38BA000AE7447 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4C4A1CF025F38BA600AE7447 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 4C4A1CD525F38BA000AE7447;
+					};
+					4C4A1CFB25F38BA600AE7447 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 4C4A1CD525F38BA000AE7447;
+					};
+				};
+			};
+			buildConfigurationList = 4C4A1CD125F38BA000AE7447 /* Build configuration list for PBXProject "彩票案例" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4A1CCD25F38BA000AE7447;
+			productRefGroup = 4C4A1CD725F38BA000AE7447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4A1CD525F38BA000AE7447 /* 彩票案例 */,
+				4C4A1CF025F38BA600AE7447 /* 彩票案例Tests */,
+				4C4A1CFB25F38BA600AE7447 /* 彩票案例UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4A1CD425F38BA000AE7447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3AD02925FE2EA90025AA07 /* cywt.json in Resources */,
+				4C3AD06525FE2ECD0025AA07 /* f9_howto.html in Resources */,
+				4C3AD05D25FE2ECD0025AA07 /* dlt_howto.html in Resources */,
+				4C3AD05425FE2ECD0025AA07 /* lk11_howto.html in Resources */,
+				4C3AD05025FE2ECD0025AA07 /* credit_help.html in Resources */,
+				4C3AD06125FE2ECD0025AA07 /* znzh.html in Resources */,
+				4C3AD04A25FE2ECD0025AA07 /* rule.css in Resources */,
+				4C32266225FB6F4C00952876 /* WMUSettingsPushRemind.plist in Resources */,
+				4C3AD05925FE2ECD0025AA07 /* help.html in Resources */,
+				4C3AD05325FE2ECD0025AA07 /* jclq_howto.html in Resources */,
+				4C3AD05125FE2ECD0025AA07 /* x3d_howto.html in Resources */,
+				4C3AD06625FE2ECD0025AA07 /* jxssc_howto.html in Resources */,
+				4C4A1D5625F4DE0300AE7447 /* WMUHall.storyboard in Resources */,
+				4C3AD05A25FE2ECD0025AA07 /* bjdc_howto.html in Resources */,
+				4C32267125FB798D00952876 /* WMUSettingsPush03.plist in Resources */,
+				4C4A1D5B25F4DEBE00AE7447 /* WMUDiscovery.storyboard in Resources */,
+				4C3AD05225FE2ECD0025AA07 /* coupon_help.html in Resources */,
+				4C4A1CE925F38BA600AE7447 /* LaunchScreen.storyboard in Resources */,
+				4C4A1D4525F4DBCF00AE7447 /* WMUMyLottery.storyboard in Resources */,
+				4C3AD02825FE2EA90025AA07 /* more_project.json in Resources */,
+				4C4A1D6025F4DF2600AE7447 /* WMUArena.storyboard in Resources */,
+				4C32267625FB7A6B00952876 /* WMUSettingsPush04.plist in Resources */,
+				4C32266725FB729000952876 /* WMUSettingsPush01.plist in Resources */,
+				4C3AD05C25FE2ECD0025AA07 /* pl3_howto.html in Resources */,
+				4C3AD05525FE2ECD0025AA07 /* qlc_howto.html in Resources */,
+				4C3AD06425FE2ECD0025AA07 /* y11_howto.html in Resources */,
+				4C3AD05825FE2ECD0025AA07 /* jxy11_howto.html in Resources */,
+				4C3AD05E25FE2ECD0025AA07 /* kl8_howto.html in Resources */,
+				4C3AD04E25FE2ECD0025AA07 /* helpGroupBuy.html in Resources */,
+				4C3AD06025FE2ECD0025AA07 /* gdy11_howto.html in Resources */,
+				4C32266C25FB771700952876 /* WMUSettingsPush02.plist in Resources */,
+				4C3AD04C25FE2ECD0025AA07 /* k3_howto.html in Resources */,
+				4C3AD02725FE2EA90025AA07 /* help.json in Resources */,
+				4C4A1CE625F38BA600AE7447 /* Assets.xcassets in Resources */,
+				4C3AD05F25FE2ECD0025AA07 /* sfc_howto.html in Resources */,
+				4C3AD04D25FE2ECD0025AA07 /* ssq_howto.html in Resources */,
+				4C3AD05625FE2ECD0025AA07 /* networkconnectedfailed.html in Resources */,
+				4C3AD04F25FE2ECD0025AA07 /* ssc_howto.html in Resources */,
+				4C3AD05725FE2ECD0025AA07 /* jczq_howto.html in Resources */,
+				4C3AD00D25FE20D60025AA07 /* WMUSettingAboutHeaderView.xib in Resources */,
+				4C32267B25FB7B5700952876 /* WMUSettingsAbout.plist in Resources */,
+				4C3AD06225FE2ECD0025AA07 /* pl5_howto.html in Resources */,
+				4C3AD04B25FE2ECD0025AA07 /* qxc_howto.html in Resources */,
+				4C32265425FA378100952876 /* WMUSettingsIndex.plist in Resources */,
+				4C3AD06325FE2ECD0025AA07 /* k2_howto.html in Resources */,
+				4C3AD07725FE39620025AA07 /* WMUProductCell.xib in Resources */,
+				4C4A1D4D25F4DD5700AE7447 /* WMUHistory.storyboard in Resources */,
+				4C3AD05B25FE2ECD0025AA07 /* group_record.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4A1CEF25F38BA600AE7447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4A1CFA25F38BA600AE7447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4A1CD225F38BA000AE7447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4A1DD725F7A7A600AE7447 /* WMUGroupBuyTitleButton.m in Sources */,
+				4C3AD07D25FE3C170025AA07 /* WMUProductCell.m in Sources */,
+				4C3AD09225FF6C6C0025AA07 /* WMUQuestionCell.m in Sources */,
+				4C32263525F8F59300952876 /* WMULuckyBetViewController.m in Sources */,
+				4C4A1CDB25F38BA000AE7447 /* AppDelegate.m in Sources */,
+				4C32268125FB85B400952876 /* WMUSettingCell.m in Sources */,
+				4C32264525FA2E6A00952876 /* WMUSettingViewController.m in Sources */,
+				4C4A1DF225F8C7F500AE7447 /* UIView+WMUExtension.m in Sources */,
+				4C32269325FE147200952876 /* WMURedeemController.m in Sources */,
+				4C3AD09825FF72990025AA07 /* WMUWebViewController.m in Sources */,
+				4C4A1D9525F63EFF00AE7447 /* WMUTabBarButton.m in Sources */,
+				4C32269925FE1E4C00952876 /* WMUSettingsAboutViewController.m in Sources */,
+				4C3AD01325FE24190025AA07 /* WMUSettingAboutHeaderView.m in Sources */,
+				4C3AD06C25FE2F2D0025AA07 /* WMUProduct.m in Sources */,
+				4C3AD01C25FE280E0025AA07 /* WMUMoreProductsController.m in Sources */,
+				4C4A1DA725F64EB200AE7447 /* WMUArenaView.m in Sources */,
+				4C1ACAA72600B74F0019C932 /* WMUGuideCell.m in Sources */,
+				4C4A1DA125F64DDF00AE7447 /* WMUArenaViewController.m in Sources */,
+				4C4A1D9B25F641E500AE7447 /* WMUHallViewController.m in Sources */,
+				4C4A1E6B25F8DE2600AE7447 /* WMUGroupBuyViewController.m in Sources */,
+				4C3AD09E25FF916E0025AA07 /* WMUGuideController.m in Sources */,
+				4C4A1DC825F7962E00AE7447 /* WMUNavigationController.m in Sources */,
+				4C32268725FB8FE500952876 /* WMULiveScorePushController.m in Sources */,
+				4C4A1DAD25F6560800AE7447 /* WMUArenaNavigationController.m in Sources */,
+				4C4A1D6C25F4E88B00AE7447 /* WMUBottomBarView.m in Sources */,
+				4C4A1CEC25F38BA600AE7447 /* main.m in Sources */,
+				4C3AD08625FF68C80025AA07 /* WMUQuestionListController.m in Sources */,
+				4C32263F25FA2D1300952876 /* WMUMyLotteryViewController.m in Sources */,
+				4C4A1D6625F4E0FC00AE7447 /* WMUMainTabBarController.m in Sources */,
+				4C3AD08C25FF68FC0025AA07 /* WMUQuestion.m in Sources */,
+				4C4A1CDE25F38BA000AE7447 /* SceneDelegate.m in Sources */,
+				4C4A1DCE25F79BF300AE7447 /* WMUDiscoveryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4A1CED25F38BA600AE7447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4A1CF625F38BA600AE7447 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4A1CF825F38BA600AE7447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4A1D0125F38BA600AE7447 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4A1CF325F38BA600AE7447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4A1CD525F38BA000AE7447 /* 彩票案例 */;
+			targetProxy = 4C4A1CF225F38BA600AE7447 /* PBXContainerItemProxy */;
+		};
+		4C4A1CFE25F38BA600AE7447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4A1CD525F38BA000AE7447 /* 彩票案例 */;
+			targetProxy = 4C4A1CFD25F38BA600AE7447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4A1CE725F38BA600AE7447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4A1CE825F38BA600AE7447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4A1D0325F38BA600AE7447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C4A1D0425F38BA600AE7447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4A1D0625F38BA600AE7447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yinwenbo/Desktop/朝花夕拾/wake me up/oc/UI20/彩票案例01/彩票案例/彩票案例/PrefixHeader.pch";
+				INFOPLIST_FILE = "彩票案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C4A1D0725F38BA600AE7447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/yinwenbo/Desktop/朝花夕拾/wake me up/oc/UI20/彩票案例01/彩票案例/彩票案例/PrefixHeader.pch";
+				INFOPLIST_FILE = "彩票案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C4A1D0925F38BA600AE7447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "彩票案例Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票案例.app/彩票案例";
+			};
+			name = Debug;
+		};
+		4C4A1D0A25F38BA600AE7447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "彩票案例Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/彩票案例.app/彩票案例";
+			};
+			name = Release;
+		};
+		4C4A1D0C25F38BA600AE7447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "彩票案例UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "彩票案例";
+			};
+			name = Debug;
+		};
+		4C4A1D0D25F38BA600AE7447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "彩票案例UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "彩票案例";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4A1CD125F38BA000AE7447 /* Build configuration list for PBXProject "彩票案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4A1D0325F38BA600AE7447 /* Debug */,
+				4C4A1D0425F38BA600AE7447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4A1D0525F38BA600AE7447 /* Build configuration list for PBXNativeTarget "彩票案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4A1D0625F38BA600AE7447 /* Debug */,
+				4C4A1D0725F38BA600AE7447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4A1D0825F38BA600AE7447 /* Build configuration list for PBXNativeTarget "彩票案例Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4A1D0925F38BA600AE7447 /* Debug */,
+				4C4A1D0A25F38BA600AE7447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4A1D0B25F38BA600AE7447 /* Build configuration list for PBXNativeTarget "彩票案例UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4A1D0C25F38BA600AE7447 /* Debug */,
+				4C4A1D0D25F38BA600AE7447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4A1CCE25F38BA000AE7447 /* Project object */;
+}

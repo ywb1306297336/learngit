@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  彩票案例
+//
+//  Created by 殷文博 on 2021/3/10.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+WMUExtension.h"
+
+#endif /* PrefixHeader_pch */
